@@ -3,14 +3,14 @@
 npm install react-bs-grid
 ```
 
-React components for declaratively constructing Bootstrap layout grids (Container, Row, Column).
+React components for declaratively constructing Bootstrap layout grids (Container, Row, Col).
 
 ## Example Usage
 
 ```javascript
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Container, Row, Column } from 'react-bs-grid';
+import { Container, Row, Col } from 'react-bs-grid';
 
 class MyComponent extends Component {
 
@@ -18,9 +18,9 @@ class MyComponent extends Component {
     return (
       <Container fluid={true}>
         <Row>
-          <Column xs={12} sm={6} md={4} lg={2} offsetSm={3} offsetMd={2} offsetLg={5}>
+          <Col xs={12} sm={6} md={4} lg={2} offsetSm={3} offsetMd={2} offsetLg={5}>
             My content is resized and centered...
-          </Column>
+          </Col>
         </Row>
       </Container>
     );
