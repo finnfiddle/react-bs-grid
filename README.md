@@ -16,7 +16,7 @@ class MyComponent extends Component {
 
   render() {
     return (
-      <Container fluid={true}>
+      <Container fluid>
         <Row>
           <Col xs={12} sm={6} md={4} lg={2} offsetSm={3} offsetMd={2} offsetLg={5}>
             My content is resized and centered...
